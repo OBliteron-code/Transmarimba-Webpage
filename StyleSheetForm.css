@@ -1,0 +1,80 @@
+.logo_transmarimba {
+    max-width: 15%;
+    float: left;
+}
+
+.navWrapper {
+    display: block;
+}
+
+/* Style the navigation bar */
+.navbar {
+    padding: 25px;
+    max-width: 90%;
+    background-color: #1f4e79;
+    overflow: auto;
+    border: 1px;
+    border-radius: 8px;
+}
+
+/* Navbar links */
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+    background-color: #e41e26;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.servicesForm {
+    width: 100%;
+    border: 2px solid #e41e26;
+    background-color: #e41e251a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.servicesForm h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 60px;
+}
+
+.servicesForm form {
+    text-align: center;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    padding: 10px;
+    margin: 100px;
+}
+
+.PQRSF{
+    text-align: center;
+    display: flex;
+    flex:1;
+}
+
+.PQRSF img{
+    max-width: 100%;
+}
