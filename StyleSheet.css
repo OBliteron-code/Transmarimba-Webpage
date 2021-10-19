@@ -1,0 +1,241 @@
+.logo_transmarimba {
+    max-width: 15%;
+    float: left;
+}
+
+.navWrapper {
+    display: block;
+}
+
+/* Style the navigation bar */
+.navbar {
+    padding: 25px;
+    background-color: #1f4e79;
+    overflow: auto;
+    border: 1px;
+    border-radius: 8px;
+}
+
+/* Navbar links */
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+    background-color: #e41e26;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.videoWrapper {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+.about {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+}
+
+.references {
+    max-width: 30%;
+    border: 2px solid #1f4e79;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.references h3 {
+    font-family: "verdana";
+    text-align: center;
+    font-size: 30px;
+}
+
+.references p {
+    text-align: center;
+    font-style: italic;
+}
+
+.profilepic {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.aboutInfo {
+    display: block;
+    background-color: #1f4e7942;
+
+}
+
+.aboutUs h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 30px;
+}
+
+.aboutUs p {
+    text-align: center;
+    font-family: "Lucida Sans";
+}
+
+.aboutMisionVision {
+    display: flex;
+}
+
+.aboutMision h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 30px;
+}
+
+.aboutMision p {
+    text-align: justify;
+    font-family: "Lucida Sans";
+    padding: 20px;
+}
+
+.aboutVision {
+    margin-left: 10px;
+}
+
+.aboutVision h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 30px;
+}
+
+.aboutVision p {
+    text-align: justify;
+    font-family: "Lucida Sans";
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+}
+
+.servicesForm {
+    float: right;
+    border: 2px solid #e41e26;
+    background-color: #e41e251a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.servicesForm h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 40px;
+}
+
+.servicesForm form {
+    text-align: center;
+    font-family: "Lucida Sans";
+    font-size: 30px;
+    padding: 20px;
+}
+
+.servicesInfo {
+    display: block;
+    width: 75%;
+}
+
+.servicesInfo h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 40px;
+}
+
+.servicesSchedulePrices {
+    display: flex;
+    flex: 1;
+    margin-left: 190px;
+}
+
+.servicesSchedulePrices li {
+    text-align: left;
+    font-family: "Lucida Sans";
+    font-size: large;
+    padding: 5px;
+}
+
+.servicesPrices {
+    margin-left: 320px;
+    border: 2px solid #1f4e79;
+    border-radius: 5px;
+}
+
+.servicesSchedule {
+    border: 2px solid #1f4e79;
+    border-radius: 5px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #1f4e79;
+}
+
+.contactInfo h3 {
+    font-family: "Ebrima";
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.contactInfo li {
+    text-align: center;
+    font-family: "Lucida Sans";
+    list-style-position: inside;
+    font-size: large;
+    padding: 5px;
+    color: white;
+}
+
+.contactValues{
+    text-align: center;
+    display: block;
+}
+
+.contactButton {
+    text-align: center;
+}
+
+.contactButton a {
+    font-family: "Lucida Sans";
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: 5px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.contactInfo {
+    width: 75%;
+}

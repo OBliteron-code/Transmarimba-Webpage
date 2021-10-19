@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheetForm.css">
+    <link rel="icon" href="images\icono.png">
+    <title>Transmarimba</title>
+</head>
+
+<header>
+    <div class="navWrapper">
+        <img src="images\logo.png" class="logo_transmarimba" alt="logo_transmarimba">
+        <div class="navbar" id="inicio">
+            <a class="active" href="Index.html">Inicio</a>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section class="PQRSF">
+        <div class="servicesForm">
+            <form>
+                <h3>PQRSF</h3>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" placeholder="Tu nombre"><br>
+                <label for="bdate">Fecha de nacimiento:</label><br>
+                <input type="date" id="bdate" name="bdate" placeholder="dd / mm / aaaa"><br>
+                <label for="idtype">Tipo de documento:</label>
+                <select id="idtype" name="idtype">
+                    <option value="cc">Cedula de ciudadania</option>
+                    <option value="ti">Tarjeta de identidad</option>
+                    <option value="pas">Pasaporte</option>
+                    <option value="ce">Cedula de extrangeria</option>
+                </select><br>
+                <label for="iduser">Numero de documento:</label><br>
+                <input type="number" id="iduser" name="iduser"><br>
+                <label for="request">Tipo de solicitud:</label>
+                <select id="request" name="request">
+                    <option value="P">Pregunta</option>
+                    <option value="Q">Queja</option>
+                    <option value="R">Reclamo</option>
+                    <option value="S">Solicitud</option>
+                    <option value="F">Felicitación</option>
+                </select><br>
+                <textarea rows="4" cols="50" name="comment" form="usrform">Ingresa tus comentarios...</textarea>
+                <input type="button" onclick="alert('Proceso exitoso!')" value="Enviar">
+            </form>
+        </div>
+        <div>
+            <img src="images\customerservice.jpg" class="logo_transmarimba" alt="logo_transmarimba">
+        </div>
+    </section>
+</body>
+
+</html>
